@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+    <title>Red Blossom Clinic - Home</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="hero">
+      <img class="banner" src="maomao banner.jpg" alt="Maomao, the head doctor who oversees the location"></img>
+      <div class="hero-content">
+        <h1>Red Blossom Clinic</h1>
+        <p class="lead">Specialized in treating patients who have serious allergens, advanced treatment for poisoning, and treatment for other conditions.</p>
+      </div>
+    </header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Landing</a></li>
+        <li><a href="home.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="location.html">Location</a></li>
+      </ul>
+    </nav>  
+
+    <main class="container">
+      <section class="content" id="about">
+        <b>
+          <a href="about.html" class="linkh-button">To the About Us Page</a>
+        </b>
+      </section>
+  
+      <section class="container services" id="services">
+        <b>
+          <a href="services.html" class="linkh-button">To Our Services Page</a>
+        </b>
+      </section>
+  
+      <section class="container contact" id="contact">
+        <b>
+          <a href="contact.html" class="linkh-button">To our Contact & Information Page</a>
+        </b>
+      </section>
+
+      <section class="container contact" id="about">
+        <b>
+          <a href="location.html" class="linkh-button">To our Location Page</a>
+        </b>
+      </section>
+  
+      <b>
+        <a href="index.html" class="linkh-button">Back to Landing Page</a>
+      </b>
+    </main>
+  
+    <footer>
+      <p>© <span id="year"></span> Red Blossom Clinic — All rights reserved.</p>
+    </footer>
+  
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  
+  </body>
+</html>
